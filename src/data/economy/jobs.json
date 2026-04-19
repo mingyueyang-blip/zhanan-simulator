@@ -1,0 +1,60 @@
+[
+  {
+    "id": "delivery",
+    "name": "送外卖",
+    "emoji": "🚴",
+    "duration": 30,
+    "timeCostMinutes": 45,
+    "reward": 50,
+    "description": "接单后进入骑手地图，用十字键穿过随机路线完成取餐和送达。",
+    "mode": "delivery",
+    "completionMode": "manual"
+  },
+  {
+    "id": "coding",
+    "name": "写代码",
+    "emoji": "💻",
+    "duration": 120,
+    "timeCostMinutes": 180,
+    "reward": 200,
+    "description": "稳定高收益，但失联时间也最长。",
+    "mode": "timed",
+    "completionMode": "timer"
+  },
+  {
+    "id": "streaming",
+    "name": "当主播",
+    "emoji": "🎵",
+    "duration": 90,
+    "timeCostMinutes": 120,
+    "reward": 50,
+    "rewardRange": [50, 500],
+    "description": "看运气吃饭，爆了能一口气翻盘。",
+    "mode": "timed",
+    "completionMode": "timer"
+  },
+  {
+    "id": "slot-machine",
+    "name": "摇老虎机",
+    "emoji": "🎰",
+    "duration": 8,
+    "timeCostMinutes": 12,
+    "reward": 0,
+    "rewardRange": [18, 5000],
+    "cost": 5,
+    "description": "每次摇杆花 5 块，只有三连同图标才会开奖，王冠三连直接爆 5000。",
+    "mode": "slot",
+    "completionMode": "manual"
+  },
+  {
+    "id": "taobao-review",
+    "name": "淘宝刷单",
+    "emoji": "⭐",
+    "duration": 12,
+    "timeCostMinutes": 20,
+    "reward": 1,
+    "description": "把三排星星全部拉满再发布评价，完成一单到账 1 块钱。",
+    "mode": "review",
+    "completionMode": "manual"
+  }
+]
